@@ -18,22 +18,23 @@ h2 {
 }
 
 /***For screens 250px and larger***/
-@media only screen and (min-width: 250px) and (max-width: 767px) {
-h1{
-  color: 	#7b7d70;
-}
+@media only screen and (min-width: 250px) and (max-width: 767px){
+  h1 {
+    color: #7b7d70;
+  }
 
-h2 {
-  color: #4eafb8;
-}
+  h2 {
+    color: #4eafb8;
+  }
 
-p {
-  color: #ff8641;
+  p {
+    color: #ff8641;
+  }
 }
 
 /***For screens 768px and larger***/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
-h1 {
+h1{
   color: #02cbd2;
 }
 
@@ -60,4 +61,3 @@ p {
     color: #c19e74;
     }
   }
-}
